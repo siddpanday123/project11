@@ -1,0 +1,41 @@
+
+#containar{
+    border: 1px solid reds;
+    width: 40vw;
+    height: 40vw;
+    background-image: url(img/clock.png);
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.niddle{
+    position: absolute;
+    background-color: black;
+    border-radius: 10%;
+    transform-origin: bottom;
+}
+#hour{
+    width: 5px;
+    height: 25%;
+    left: 49.5%;
+    top: 25%;
+    opacity: .8;
+} 
+
+#minut{
+    width: 5px;
+    height: 37%;
+    left: 49.5%;
+    top: 13%;
+    opacity: 0.6;
+}
+
+
+#second{
+    width: 5px;
+    height: 31%;
+    left: 49.5%;
+    top: 18%;
+    opacity: 0.4; 
+}
